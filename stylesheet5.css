@@ -11,6 +11,13 @@ p {
 	font-size: 20px;
 	font-family: "Cursive", Lucida Handwriting;
 }
+h1 {
+	text-align: center;
+	border-style: ridge;
+	background-color: #90EE90;
+	font-size: 30px;
+	font-family: "Cursive", Lucida Handwriting;
+}
 
 img {
 	  display: block;
@@ -24,11 +31,11 @@ img {
     animation-name: Frogmove;
     animation-duration: 10s;
     animation-delay: 0s;
-    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
 }
 @keyframes Frogmove {
     from {transform : translateX(-20em);}
-    to {transform : translateX(20em);}
+	50% {transform: translateX(20em);}
+    to {transform : translateX(-20em);}
 }
