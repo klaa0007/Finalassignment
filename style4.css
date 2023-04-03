@@ -71,18 +71,34 @@ p {
     }
     95% {
         transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
-    }
+}
+}
 	
 .froggy {
-	height: 200px;
+	height: 20px;
 	width: auto;
 	animation-name: froggo;
 	animation-duration: 10s;
 	animation-delay: 0s;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
-)
+}
 @keyframes froggo {
 from {transform : translateX(-20em);}
-to {transform : translateX(20em);}
+to {transform : translateX(0em);}
+}
+
+.froggie {
+	height: 20px;
+	width: auto;
+	animation-name: froggin;
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-fill-mode: backwards;
+	animation-iteration-count: 1;
+
+}
+@keyframes froggin {
+from {transform : translateX(20em);}
+to {transform : translateX(0em);}
 }
