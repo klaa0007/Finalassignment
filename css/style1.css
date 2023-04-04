@@ -1,17 +1,22 @@
 html {
-	background-image: url(background.jpg); 
+	background-image: url(images/background.jpg); 
 	background-size: cover;
 	background-repeat: repeat;
 }
 
-p {
+p {	
 	text-align: center;
 	border-style: ridge;
 	background-color: #90EE90;
 	font-size: 20px;
 	font-family: "Cursive", Lucida Handwriting;
 }
-
+h1 {
+	text-align: center;
+	background-color: #ffffff;
+	font-size: 50px;
+	font-family: "Fantasy", Copperplate;
+}
 img {
 	  display: block;
   margin-left: auto;
